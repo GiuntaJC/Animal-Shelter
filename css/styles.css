@@ -56,3 +56,13 @@ img {
   display: block;
   object-fit: contain;
 }
+
+@media screen and (max-width: 768px) {
+  .column1, .column2, .column3, .column4 {
+    border: solid red;
+  }
+  body {
+    background-color: black;
+    color: white;
+  }
+}
